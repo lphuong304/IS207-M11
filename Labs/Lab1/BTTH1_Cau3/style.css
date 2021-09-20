@@ -1,0 +1,33 @@
+.form-box {
+    position: absolute;
+    top: 35%;
+    left: 35.8%;
+    width: 400px;
+    height: 230px;
+    padding-left: 40px;
+    background: rgba(148,187,233,1);
+    box-sizing: border-box;
+}
+.form-box h2{
+    position: relative;
+    left: 33%;
+}
+.field-input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.field-input input{
+    display: inline-block;
+    width: 220px;
+}
+.field-input label{
+    width: 80px;
+    display: inline-block;
+    left: 25%;
+}
+.field-button{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    left: 20%;
+}

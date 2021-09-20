@@ -1,0 +1,13 @@
+#food{
+    border-collapse: collapse;
+}
+#food td, #food th {
+    border: 1.75px solid #ddd;
+    padding: 2px;
+    font-weight:300;
+}
+.table-box h1{
+    position: relative;
+    left: 12%;
+    color:blueviolet;
+}

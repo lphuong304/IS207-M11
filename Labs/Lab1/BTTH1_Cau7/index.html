@@ -1,0 +1,73 @@
+<!---Author: Nguyen Ngoc Lan Phuong - 19520227 -->
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+    <title>19520227_BTTH1_Cau3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="#FFDD99" >
+    <div class = "table-form" >
+        <h1 align="center">Phiếu đăng ký du lịch</h1>
+        <table id = "tourist" border="1" align ="center">
+            <tr>
+                <th style="color:blue;" align="left" width=200px>Họ và tên khách</th>
+                <th width=350px, align="left">
+                    <input type="text" name ="hovaten" placeholder="Nguyễn Văn A"/>
+                </th>
+            </tr>
+            <tr>
+                <th style="color:blue;" align="left" width=200px>Địa chỉ</th>
+                <th width=350px, align="left">
+                    <input type="text" name ="hovaten" placeholder="abc, xyz, jqk" style="width:320px;" />
+                </th>
+            </tr>
+            <tr>
+                <th style="color:blue;" align="left" width=200px>Điện thoại</th>
+                <th width=350px, align="left">
+                    <input type="text" name ="hovaten" placeholder="09xxxxxxxxxx"/>
+                </th>
+            </tr>
+            <tr>
+                <th style="color:blue;" align="left" width=200px>Tour</th>
+                <th width=350px, align="left">
+                    <select id = "tours" name = "tours">
+                        <option value="select"> Chọn tour </option>
+                        <option value="10.000.000"> Hà Nội – Hạ Long – Tuần Châu </option>
+                        <option value="6.000.000"> Hà Nội – Sapa </option>
+                        <option value="3.000.000"> Đà Nẵng – Hội An </option>
+                        <option value="2.000.000"> Buôn Mê Thuộc – Kon Tum </option>
+                        <option value="3.500.000"> TP.HCM – Nha Trang </option>
+                        <option value="2.500.000"> TP.HCM – Cần Thơ – Cà Mau </option>
+                    </select>
+                </th>
+            </tr>
+            <tr>
+                <th align="left" colspan="2">
+                        <fieldset style="width:300px">               
+                            <legend style="color:blue">Số lượng đoàn khách</legend>
+                            <div class="input-field">
+                                <label style="color:blue">Người lớn</label>
+                                <input type = "text" name = "nguoilon" placeholder="1" style="width:50px;" />
+                                <label style="color:blue">Trẻ em</label>
+                                <input type = "text" name = "treem" placeholder="0" style="width:50px;" />
+                            </div>
+                        </fieldset>
+                </th>
+            </tr>
+            <tr>
+                <th style="color:blue;" align="left" width=200px>Ghi chú</th>
+                <th width=350px, align="left">
+                    <input type="text" name ="hovaten" placeholder="" style="width:250px;height:50px ;"/>
+                </th>
+            </tr>
+            <tr>
+                <th colspan=2>
+                    <input type = "submit" value = "Đăng ký"/>
+                </th>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

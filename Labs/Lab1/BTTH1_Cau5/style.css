@@ -1,0 +1,55 @@
+.form-box {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    width: 350px;
+    height: 180px;
+    padding-left: 0;
+    box-sizing: border-box;
+}
+.field-input{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.form-box h3{
+    position: relative;
+    left:28%;
+    color:#8A2BE2;
+    padding-bottom: 0px;
+    top: 5%;
+}
+.form-box hr{
+    position: relative;
+    top:0;
+    left:0px;
+    color:#8A2BE2;
+    width: 100%;
+}
+.field-input input{
+    padding-left: 10px;
+    display: inline-block;
+    width: 100px;
+}
+.field-input label{
+    padding-left: 30px;
+    width: 160px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.field-button{
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    left: 55.5%;
+    border-collapse: collapse; 
+    border-radius: 20px;
+}
+.messages{
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    left: 25%;
+    font-size: 16px;
+    font-style: italic;
+}

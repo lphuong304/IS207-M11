@@ -1,0 +1,24 @@
+#tourist{
+    border-collapse: collapse;
+}
+#tourist th{
+    border: 1.75px solid #000;
+    padding: 2px;
+    font-weight:300;
+
+}
+
+.numbers-of-visitors span{
+    position: relative;
+    color:blue;
+    left:5%;
+    top:0%;
+}
+.numbers-of-visitors label{
+    position: relative;
+    padding-right: 25px;
+    top: 4%;
+    color:blue;
+    left: 5%;
+    width: 10px;
+}

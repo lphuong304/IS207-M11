@@ -1,0 +1,31 @@
+.table{
+    border-collapse: collapse;
+    border: 1px solid #000;
+    
+}
+#schedule th{
+    position: relative;
+    border: 1.75px solid #000;
+    padding: 2px;
+    top:50%;
+}
+#date-table{
+    background-color: 	#faf0e6;
+    color: #fa8072;
+    width: 80px;
+}
+#tk-csdl{
+    background-color:#87cefa;
+}
+#hdh{
+    background-color:#4682b4	;
+}
+#csdl{
+    background-color:#db7093	;
+}
+#ltdt{
+    background-color:#ffa500	;
+}
+#tk-web-1{
+    background-color:	#32cd32	;
+}

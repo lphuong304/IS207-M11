@@ -1,0 +1,78 @@
+<!---Author: Nguyen Ngoc Lan Phuong - 19520227 -->
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+    <title>19520227_BTTH1_Cau3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="#FFEDCA" >
+    <div class = "table-form" >
+        <h1 align="center">Phiếu đăng ký tham gia dự thưởng</h1>
+        <table id = "prize" border="1" align ="center">
+            <tr>
+                <th style="color:blue;" align="left" width=200px>Họ và tên khách</th>
+                <th width=350px, align="left">
+                    <input type="text" name ="hovaten" placeholder="Nguyễn Văn A"/>
+                </th>
+            </tr>
+            <tr>
+                <th style="color:blue;" align="left" width=200px>Địa chỉ</th>
+                <th width=350px, align="left">
+                    <input type="text" name ="diachi" placeholder="abc, xyz, jqk" style="width:320px;" />
+                </th>
+            </tr>
+            <tr>
+                <th style="color:blue;" align="left" width=200px>Điện thoại</th>
+                <th width=350px, align="left">
+                    <input type="text" name ="sdt" placeholder="09xxxxxxxxxx"/>
+                </th>
+            </tr>
+            <tr>
+                <th style="color:blue;" align="left" width=200px>Phái</th>
+                <th width=350px, align="left">
+                    <input type="radio" name ="gender" value="1" />
+                    <label>Nam</label>
+                    <input type="radio" name ="gender" value="0" />
+                    <label>Nữ</label>
+                </th>
+            </tr>
+            <tr>
+                <th style="color:blue;" align="left" width=200px>Tour</th>
+                <th width=350px, align="left">
+                    <select multiple = "multiple" class = "option" name = "option">
+                        <option value="ip"> Iphone 11 Pro Max </option>
+                        <option value="ss"> Samsung Galaxy Note 20 </option>
+                        <option value="xr">Xiaomi Redmi K30 </option>
+                        <option value="oppo"> OPPO A53</option>
+                    </select>
+                </th>
+            </tr>
+            <tr>
+                <th style="color:blue;" align="left" width=200px>Số dự đoán</th>
+                <th width=350px, align="left">
+                    <select multiple = "multiple" class = "numbers" name = "numbers">
+                        <option value="ip">1</option>
+                        <option value="ss">2</option>
+                        <option value="xr">3</option>
+                        <option value="oppo">4</option>
+                        <option value="oppo">5</option>
+                        <option value="oppo">6</option>
+                        <option value="oppo">7</option>
+                        <option value="oppo">8</option>
+                        <option value="oppo">9</option>
+                        <option value="oppo">10</option>
+                        <option value="oppo">11</option>
+                    </select>
+                </th>
+            </tr>
+            <tr>
+                <th colspan=2>
+                    <input type = "submit" value = "Đăng ký"/>
+                </th>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

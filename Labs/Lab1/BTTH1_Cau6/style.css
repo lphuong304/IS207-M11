@@ -1,0 +1,19 @@
+#prize{
+    border-collapse: collapse;
+}
+#prize th{
+    border: 1.75px solid #000;
+    padding: 2px;
+    font-weight:300;
+
+}
+.option {
+    width:200px;
+    overflow-y:scroll;
+    height: 100%;
+}
+.numbers {
+    width:200px;
+    overflow-y:scroll;
+    height: 20px;
+}

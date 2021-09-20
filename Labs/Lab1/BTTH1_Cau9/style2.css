@@ -1,0 +1,93 @@
+#menus{
+  margin: 0;
+  padding: 0;
+  background-color: #00008B;
+  height: 56px;
+  list-style-type: none;
+  text-align: center;
+  display: inline-block;
+  width:100%;
+}
+#menus li{
+  position: relative;
+  left: 28%;
+  top:25%;
+  float: left; 
+}
+#menus a.home {
+  color: #FFD700;
+  font-size: 25px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#menus a.travel {
+  
+  color: #FFD700;
+  font-size: 25px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#menus a.news {
+ 
+  color: #FFD700;
+  font-size: 25px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#menus a.sale {
+  color: #FFD700;
+  font-size: 25px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#menus a.contact {
+  
+  color: #FFD700;
+  font-size: 25px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#menus li a:hover {
+  position: relative;
+  color: white;
+  background-color: #ADFF2F;
+  font-weight: bold;
+} 
+#submenus {
+  position: relative;
+  top:0%;
+  background-color: #00008B;
+  list-style-type: none;
+  max-width:150px;
+  padding-left: 0px;
+  height: 133px;
+  display: none;
+}
+#submenus li {
+  position: relative;
+  margin-left:0;
+  top:10%;
+  left: 0%;
+  font-size: 25px;
+  padding-bottom: 12px;
+  color:#FFD700;
+}
+#menus li:hover ul.submenu {
+  display: block
+}
+#submenus li:hover {
+  background-color: lightblue;
+  text-align: left;
+  padding-left: 0px;
+  padding-top: 0px;
+  width:150px;
+  height: 26px;
+}
+
+
+
